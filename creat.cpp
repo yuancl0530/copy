@@ -21,7 +21,7 @@ int main(int argc,char* argv[])
 	}
 	for (int i = 0;i < num;i++){
 		FileName[0] = 'A' + i;
-		in.open("/home/ycl//workspace/ACM/MODEL.cpp");
+		in.open("/path");
 		if (!in.is_open()){cout<<"MODEL.cpp loss"<<endl; return -1;}
 		out.open(FileName);
 		char temp[305];
