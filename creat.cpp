@@ -33,7 +33,7 @@ int main(int argc,char* argv[])
 
 	for (int i = 0;i < num;i++){
 		FileName[0] = 'A' + i;
-		in.open("MODEL.cpp"); //绝对地址
+		in.open("/etc/MODEL.cpp"); //绝对地址
 		if (!in.is_open()){cout<<"Can not find MODEL.cpp"<<endl; return -1;}
 		out.open(FileName);
 		while (in.getline(temp,500))
